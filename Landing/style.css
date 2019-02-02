@@ -1,0 +1,78 @@
+/*  Fonts & Colors  */
+
+body{
+	background: rgb(240,240,240);
+	color: rgb(20,20,20);
+	font-family: 'Open Sans', sans-serif;	
+	margin:0px;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	color: 900c3f;
+}
+
+h2{
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+a: hover {
+	text-decoration: none;
+	color: red;
+}
+
+/* Custom Design */
+
+#banner{
+	background-image: url("https://unsplash.it/1300/600?random");	
+	/* background-image: url("https://picsum.photos/200/300/?random"); */
+	background-size: cover;
+	padding: 150px 0px;
+	text-align: center;
+	color: white;
+}
+
+#banner h1{
+	color: white;
+  	font-size: 50px;
+  	text-shadow: 0.3px 0.3p 0.3px grey;
+}
+
+#banner p{
+	font-weight: lighter;
+  	font-size: 30px;
+}
+
+.section {
+  	font-weight: lighter;
+  	text-align: center;
+  	padding: 50px;
+}
+
+
+#footer{
+  padding: 50px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  font-size: 20px;
+}
+
+#footer a{
+	font-size: 20px;
+	color: white;
+}
+
+#footer a:hover{
+	color: white;
+}
+
+#myface{
+	border-radius: 50%;
+	margin: 15px;
+}
